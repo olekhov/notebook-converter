@@ -9,7 +9,7 @@ services:
       - uploads:/app/uploads
     environment:
       - FLASK_ENV=production
-      - APP_PASSWORD=simplepassword
+      - APP_PASSWORD=${APP_PASSWORD:-simplepassword}
 
 volumes:
   uploads:
