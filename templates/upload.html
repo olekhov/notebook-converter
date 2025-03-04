@@ -4,10 +4,16 @@
     <title>Upload Jupyter Notebook</title>
 </head>
 <body>
-    <h2>Upload a Jupyter Notebook (.ipynb)</h2>
+    <h1>Преобразование Jupyter Notebook (.ipynb) в PDF</h1>
+    Сервис не исполняет ноутбук: не прогоняет код, не строит графики и остальное.
+    <p>
+    Только перегоняет содержимое ноутбука в PDF файл - прогоните все ячейки заранее.
+    <h2>Загрузка Jupyter Notebook (.ipynb)</h2>
     <form action="/" method="post" enctype="multipart/form-data">
+        Файл сюда:
         <input type="file" name="file" accept=".ipynb">
         <p>
+        Пароль:
         <input type="password" name="password">
         <p>
         <input type="submit" value="Convert to PDF">

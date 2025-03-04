@@ -4,12 +4,12 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "${SERVICE_PORT:-5000}:5000"
     volumes:
       - uploads:/app/uploads
     environment:
       - FLASK_ENV=production
-      - APP_PASSWORD="simplepassword"
+      - APP_PASSWORD=simplepassword
 
 volumes:
   uploads:
