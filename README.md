@@ -5,7 +5,7 @@ Convert Jupyter notebooks to PDFs with cyrillic letters support
 
 Сделано в Python, Flask, Docker - с изрядным количеством дегенеративного контента.
 
-Привет ФУ ПМ22 :)
+Привет ФУ ПМ23 :)
 
 Запускать:
 ```shell
